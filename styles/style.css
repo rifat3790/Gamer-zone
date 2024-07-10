@@ -1,5 +1,5 @@
 /* shared style */
-.text-grey{
+.text-gray{
     color: #534C64;
     font-weight: 400;
 }
@@ -73,10 +73,12 @@ nav ul li{
 .banner{
     display: flex;
     margin-top: 74px;
+    
 }
 
 .banner-container{
     width: 100%;
+    background-image: url(/images/Group\ 14.png);
 }
 .banner-title-1{
     font-size: 3rem;
@@ -105,6 +107,22 @@ nav ul li{
     /* margin-left: 50px; */
 }
 
+/* Gammer style */
+.gammer{
+    display: flex;
+    padding: 100px;
+}
+.section-title{
+    color: #F948B2;
+}
+.gammer img{
+    width: 100%;
+}
+.ganner-content{
+    width: 520px;
+    text-align: right;
+}
+
 
 
 /* responsive style */
@@ -112,8 +130,16 @@ nav ul li{
     header{
         padding: 20px 40px;
     }
-    nav, .banner{
+    nav, .banner, .gammer{
         flex-direction: column;
+    }
+    .gammer{
+        padding: 20px 40px;
+    }
+    
+    .ganner-content{
+        width: 100%;
+        text-align: left;
     }
     
 }
