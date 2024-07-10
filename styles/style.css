@@ -1,0 +1,46 @@
+/* shared style */
+.text-grey{
+    color: #534C64;
+    font-weight: 400;
+}
+
+.section-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* header style */
+header{
+    padding: 40px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  width: 86.041px;
+  height: 40px;
+}
+nav .g{
+    color: #FF42A5;
+}
+nav .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav ul, nav .nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #3C354F;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
