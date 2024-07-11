@@ -211,7 +211,27 @@ main{
     display: flex;
     align-items: center;
 }
+footer{
+    background: #0B0223;
+    color: white;
+}
 
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.footer-item li{
+    list-style: none;
+}
+.footer-item ul{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding-left: 100px;
+    padding-right: 100px;
+}
 
 /* responsive style */
 @media screen and (max-width: 576px) {
@@ -231,6 +251,9 @@ main{
     }
     .funny-videos-card{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .game-card-container{
+        grid-template-columns: repeat(3,1fr);
     }
     
 }
