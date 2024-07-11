@@ -140,6 +140,31 @@ main{
 .funny-videos-card img{
     width: 100%;
 }
+.play-container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.play-instant{
+    color: #F948B2;
+}
+.play-content{
+    width: 100%;
+}
+.play-image{
+    margin-left: 50px;
+}
+.play-image img{
+    width: 100%;
+}
+.play-img-2-container img{
+    margin: 0;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 50px;
+    top: -150px;
+}
 
 
 
@@ -148,7 +173,7 @@ main{
     header{
         padding: 20px 40px;
     }
-    nav, .banner, .gammer{
+    nav, .banner, .gammer, .play-container{
         flex-direction: column;
     }
     .main{
