@@ -113,7 +113,9 @@ nav ul li{
 
 /* Gammer style */
 main{
-    padding: 100px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .gammer{
     display: flex;
@@ -166,6 +168,37 @@ main{
     top: -150px;
 }
 
+/* career styles */
+.career{
+    margin-top: -100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0;
+    background: #FF42A5;
+    display: flex;
+    color: white;
+}
+.career-content{
+    width: 100%;
+}
+.career-item li{
+    list-style: none;
+    margin-left: -40px;
+}
+.career-item{
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    background-color: white;
+    color: #FF42A5;
+}
+.career img{
+    width: 100%;
+    /* margin-top: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
 
 /* responsive style */
@@ -173,7 +206,7 @@ main{
     header{
         padding: 20px 40px;
     }
-    nav, .banner, .gammer, .play-container{
+    nav, .banner, .gammer, .play-container, .career{
         flex-direction: column;
     }
     .main{
