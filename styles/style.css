@@ -173,7 +173,7 @@ main{
     margin-top: -100px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 0;
+    padding-bottom: 100px;
     background: #FF42A5;
     display: flex;
     color: white;
